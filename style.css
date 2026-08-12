@@ -1,1 +1,37 @@
-
+body{
+    background-color: aqua;
+    color:azure;
+    font-family: Arial, sans-serif;
+}
+header{
+background-color: brown;
+color: crimson;
+text-align: center;
+padding: 30px;
+}
+h1 {
+    font-size: 36px;
+    h2 {
+        color: darkblue;
+    }
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+section {
+    background-color: darkmagenta;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: darkorchid;
+    margin-top: 8px;
+}
