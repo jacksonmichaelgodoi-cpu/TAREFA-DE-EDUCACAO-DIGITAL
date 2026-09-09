@@ -5,7 +5,7 @@ body{
 }
 header{
 background-color: rgb(13, 141, 226);
-color: rgb(243, 240, 241);
+color: rgb(214, 201, 201);
 text-align: center;
 padding: 30px;
 }
@@ -32,6 +32,6 @@ section {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(31, 186, 197);
+    color: rgb(58, 59, 59);
     margin-top: 8px;
 }
