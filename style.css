@@ -32,7 +32,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: #00ccff;
     padding: 10px 15px ;
     border-radius: 8px ;
     margin: 5px ;
@@ -72,7 +72,7 @@ card {
     background-color: #f3d9fa;
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #6b2d5c ;
+    border-left: 6px solid #05b9e6 ;
     border-radius: 10px;
 }
 
