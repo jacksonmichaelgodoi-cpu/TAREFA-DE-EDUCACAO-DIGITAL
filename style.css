@@ -4,8 +4,8 @@ body{
     font-family: Arial, sans-serif;
 }
 header{
-background-color: rgb(13, 141, 226);
-color: rgb(214, 201, 201);
+background-color:rgb(13, 141, 226);
+color: rgb(243, 240, 241);
 text-align: center;
 padding: 30px;
 }
@@ -32,6 +32,10 @@ section {
 figcaption {
     text-align: center;
     font-size: 14px;
+<<<<<<< HEAD
+    color: rgb(200, 187, 207);
+=======
     color: rgb(58, 59, 59);
+>>>>>>> 748a179281c4bedd3818afda2a3497c353233bad
     margin-top: 8px;
 }
