@@ -1,21 +1,22 @@
-:root{
-    --cor-fundo: rgb(233, 245, 244); 
+:root {
+    --cor-fundo: rgb(233, 245, 244);
     --cor-texto: rgb(10, 0, 0);
-    --cor-principal:rgb(184, 230, 238);
-    --cor-secundaria:rgba(10, 136, 255, 0.788);
-    --cor-hover: rgb(248, 6, 79); 
-    --cor-superficial:rgb(226, 206, 206); 
-    --cor-card:rgb(233, 236, 236);
-    --cor-legenda:rgb(0, 0, 0);
-    --cor-clara:rgb(0, 0, 0);
-    --cor-rodape:rgb(90, 90, 90); 
+    --cor-principal: rgb(184, 230, 238);
+    --cor-secundaria: rgba(10, 136, 255, 0.788);
+    --cor-hover: rgb(248, 6, 79);
+    --cor-superficial: rgb(226, 206, 206);
+    --cor-card: rgb(233, 236, 236);
+    --cor-legenda: rgb(0, 0, 0);
+    --cor-clara: rgb(0, 0, 0);
+    --cor-rodape: rgb(90, 90, 90);
 }
+
 .tema-escuro {
---cor-fundo: rgb(14, 11, 11);
---cor-texto: rgb(216, 207, 207);
---cor-principal:rgb(119, 0, 255);
---cor-superficial:rgb(10, 7, 7);
---cor-card: rgb(24, 21, 21); 
+    --cor-fundo: rgb(14, 11, 11);
+    --cor-texto: rgb(216, 207, 207);
+    --cor-principal: rgb(119, 0, 255);
+    --cor-superficial: rgb(10, 7, 7);
+    --cor-card: rgb(24, 21, 21);
 }
 
 
@@ -54,16 +55,17 @@ nav {
 nav a {
     color: var(--cor-clara);
     text-decoration: none;
-    background-color:var(--cor-secundaria);
-    padding: 10px 15px ;
-    border-radius: 8px ;
-    margin: 5px ;
+    background-color: var(--cor-secundaria);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
     display: inline-block;
 }
 
 nav a:hover {
     background-color: var(--cor-hover);
 }
+
 main {
     width: 80%;
     margin: auto;
@@ -92,7 +94,7 @@ figcaption {
 }
 
 .card {
-    background-color:var(--cor-card);
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
     border-left: var(--cor-principal);
@@ -102,6 +104,7 @@ figcaption {
 .card h3 {
     margin-top: 0;
 }
+
 footer {
     background-color: var(--cor-rodape);
     color: var(--cor-clara);
@@ -109,6 +112,7 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
 button {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
@@ -117,14 +121,17 @@ button {
     border-radius: 8px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: var(--cor-hover);
 }
+
 .curtir {
     display: block;
     width: fit-content;
     margin: 20px auto;
 }
+
 .btn-tema {
     position: fixed;
     right: 20px;
